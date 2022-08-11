@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int k,c,n;
+printf("enter the no of coins you have");
+scanf("%d",&n);
+while(k<=n)
+{
+c=1;
+while(c<=k)
+{
+n=n-c;
+c++;
+}
+k++;
+}
+if(n!=r)
+{
+printf("%d",k-1);
+}
